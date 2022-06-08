@@ -4,13 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using Sirenix.OdinInspector;
 using TMPro;
 using DG.Tweening;
-
 public class UIScript : MonoBehaviour
 {
- public static int currentLevel;
+    public static int currentLevel;
     public static int totalCoins;
     public static bool completedTutorial = false;
     int levelReward;
@@ -23,35 +22,47 @@ public class UIScript : MonoBehaviour
     GameObject endUI;
     [SerializeField]
     GameObject HUD;   
-    
+
+    [BoxGroup("Texts")]
     [SerializeField]
     TextMeshProUGUI levelTextHUD;
+    [BoxGroup("Texts")]
     [SerializeField]
     TextMeshProUGUI levelTextEndUI;
+    [BoxGroup("Texts")]
     [SerializeField]
     TextMeshProUGUI levelRewardText;
+    [BoxGroup("Texts")]
     [SerializeField]
     TextMeshProUGUI multiplierText;
+    [BoxGroup("Texts")]
     [SerializeField]
     TextMeshProUGUI successText;
+    [BoxGroup("Texts")]
     public //Used in PlayerInteractable
     TextMeshProUGUI itemCountText;
+    [BoxGroup("Texts")]
     [SerializeField]
     TextMeshProUGUI itemTotalText;
 
     [SerializeField]
     GameObject joystickTutorial;
-    
+
+    [BoxGroup("Visuals")]
     [SerializeField]
     Image blackout;
+    [BoxGroup("Visuals")]
     [SerializeField]
     GameObject hiddenUI;
-    
+
+    [BoxGroup("Buttons")]
     [SerializeField]
     GameObject playAgainButton;
+    [BoxGroup("Buttons")]
     [SerializeField]
     GameObject nextButton;
-    
+
+    [BoxGroup("Coins")]
     [SerializeField]
     GameObject rewardCoinGroup;
 
@@ -117,15 +128,17 @@ public class UIScript : MonoBehaviour
     {       
         if (currentLevel == _levelPlatforms.Length)
         {
+            Debug.Log("New Scene");
             currentLevel = 0;
-           // GameManager.Instance.currentLevel = 0;           
-           // GameManager.Instance.SaveState();
+            GameManager.Instance.currentLevel = 0;           
+            GameManager.Instance.SaveState();
         }
-       
+
+        PlayerMovement._gameState = GameState.None;
         nextButton.SetActive(false);
-       // GameManager.Instance.currentLevel++;
-       // GameManager.Instance.currentLevelText++;
-       // GameManager.Instance.completedTutorial = completedTutorial;
+        GameManager.Instance.currentLevel++;
+        GameManager.Instance.currentLevelText++;
+        GameManager.Instance.completedTutorial = completedTutorial;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
 
@@ -199,5 +212,4 @@ public class UIScript : MonoBehaviour
             hiddenMenuCount--;
         }
     }
-
 }

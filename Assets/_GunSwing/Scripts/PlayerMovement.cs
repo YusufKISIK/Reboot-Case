@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
@@ -5,17 +6,20 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 using Cinemachine;
+using Sirenix.Utilities;
+using DG.Tweening;
 using Image = UnityEngine.UI.Image;
 
 
 public class PlayerMovement : MonoBehaviour
 {
-  public static GameState _gameState;
+    public static GameState _gameState;
     public CinemachineVirtualCamera vcm;
     //GENERAL-COMPONENT PROPERTIES
     CharacterController _controller;
     PlayerAction player;
-    
+    public Rigidbody playerrb;
+    public Animator PlayerAnimator;
     [SerializeField] Transform model;
     //SERILIZEFIELD PROPERTIES
     [SerializeField] float _forwardSpeed;
@@ -37,12 +41,21 @@ public class PlayerMovement : MonoBehaviour
     Vector3 _leanEndVector;
     private Vector3 velocity;
     public ParticleSystem _hitParticleSystem;
-     public UIScript UIgo;
+    public UIScript UIgo;
     public static bool canrun;
     public static bool enemyCanMove = true;
+    public static bool enemyWins = false;
     public static int CollectedObject;
     public ParticleSystem _starStunned;
     
+    public List<Enemie> enemy = new List<Enemie>();
+    public GameObject[] enemyParent;
+    public GameObject[] guns;
+    public int gunLvl;
+    public int gunNumb;
+    
+    
+
     Color color;
     private void OnEnable()
     {
@@ -59,13 +72,21 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         CollectedObject = 0;
-        _gameState = GameState.None;
         _controller = GetComponent<CharacterController>();
         player.Movement.TouchPress.started += _ => TouchStart();
-        player.Movement.TouchPress.canceled += _ => TouchEnd();
+       // player.Movement.TouchPress.canceled += _ => TouchEnd();
         velocity = Vector3.zero;
+        gunNumb = 1;
 
         canrun = true;
+
+        
+        enemy.SetLength(enemyParent[UIScript.currentLevel - 1].transform.childCount);
+
+        for (int i = 0; i < enemyParent[UIScript.currentLevel - 1].transform.childCount; i++)
+        {
+            enemy[i] = enemyParent[UIScript.currentLevel - 1].transform.GetChild(i).GetComponent<Enemie>();
+        }
     }
 
     private void TouchStart()
@@ -76,17 +97,11 @@ public class PlayerMovement : MonoBehaviour
             activateInput = true;
             _gameState = GameState.Run;
             TapToMove.SetActive(false);
-      
+            Enemie.GameStarted = true;
+           // PlayerAnimator.Play("Running Backward");
         }
     }
-    private void TouchEnd()
-    {
-        if (_gameState != GameState.End)
-        {
-            activateInput = false;
-            transform.localRotation = Quaternion.Euler(Vector3.zero);
-        }
-    }
+ 
     void Update()
     {
         if (_gameState == GameState.Run)
@@ -142,11 +157,101 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
+
+    private void FixedUpdate()
+    {
+        if (enemy.Count <= 0)
+        {
+            if (_gameState == GameState.Run)
+            {
+                UIgo.Success(enemy.Count);
+                Enemie.GameStarted = false;
+                _gameState = GameState.End;
+                playerrb.isKinematic = true;
+            }
+        }
+        else
+        {
+            for (int i = 0; i < enemy.Count; i++)
+            {
+                if (!enemy[i].enemyAllive)
+                {
+                    enemy.RemoveAt(i);
+                }
+            } 
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Collectable")
+        if (other.gameObject.tag == "Door")
         {
+            if (gunLvl <= 3)
+            {
+                gunLvl++;
+                for (int i = 0; i < guns.Length; i++)
+                {
+                    guns[i].transform.GetChild(gunLvl - 1).gameObject.SetActive(false);
+                    guns[i].transform.GetChild(gunLvl).gameObject.SetActive(true);
+                }
+                other.gameObject.transform.DOScale(Vector3.zero, 1f);
+                other.gameObject.GetComponent<BoxCollider>().enabled = false;
+            }
+           
+        }
+        if (other.gameObject.tag == "Pistol")
+        {
+            gunNumb++;
+            guns[gunNumb].SetActive(true);
+            for (int i = 0; i < 4; i++)
+            {
+                guns[gunNumb].transform.GetChild(i).gameObject.SetActive(false);
+            }
+            guns[gunNumb].transform.GetChild(0).gameObject.SetActive(true);
+            Destroy(other.gameObject);
+        }
         
+        if (other.gameObject.tag == "Rifle")
+        {
+            gunNumb++;
+            guns[gunNumb].SetActive(true);
+            for (int i = 0; i < 4; i++)
+            {
+                guns[gunNumb].transform.GetChild(i).gameObject.SetActive(false);
+            }
+            guns[gunNumb].transform.GetChild(1).gameObject.SetActive(true);
+            Destroy(other.gameObject);
+        }
+        
+        if (other.gameObject.tag == "Shotgun")
+        {
+            gunNumb++;
+            guns[gunNumb].SetActive(true);
+            for (int i = 0; i < 4; i++)
+            {
+                guns[gunNumb].transform.GetChild(i).gameObject.SetActive(false);
+            }
+            guns[gunNumb].transform.GetChild(2).gameObject.SetActive(true);
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.tag == "LaserGun")
+        {
+            gunNumb++;
+            guns[gunNumb].SetActive(true);
+            for (int i = 0; i < 4; i++)
+            {
+                guns[gunNumb].transform.GetChild(i).gameObject.SetActive(false);
+            }
+            guns[gunNumb].transform.GetChild(3).gameObject.SetActive(true);
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.tag == "Enemy")
+        {
+            Enemie.GameStarted = false;
+            enemyWins = true;
+            _gameState = GameState.End;
+            playerrb.isKinematic = true;
+            UIgo.Fail();
         }
     }
     

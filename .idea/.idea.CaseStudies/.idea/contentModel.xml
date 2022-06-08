@@ -128,13 +128,6 @@
                 <e p="Sirenix.Utilities.xml" t="Include" />
               </e>
               <e p="Odin Inspector" t="Include">
-                <e p="Modules" t="Include">
-                  <e p="Unity.Mathematics" t="Include">
-                    <e p="manifest.txt" t="Include" />
-                    <e p="MathematicsDrawers.cs" t="Include" />
-                    <e p="Sirenix.OdinInspector.Modules.UnityMathematics.asmdef" t="Include" />
-                  </e>
-                </e>
                 <e p="Scripts" t="Include">
                   <e p="Editor" t="Include">
                     <e p="AssemblyImportSettingsAutomation.cs" t="Include" />
@@ -157,6 +150,10 @@
             </e>
           </e>
           <e p="Scripts" t="Include">
+            <e p="_GunRelated" t="Include">
+              <e p="Bullet.cs" t="Include" />
+              <e p="GunScript.cs" t="Include" />
+            </e>
             <e p="_PlayerRelated" t="Include">
               <e p="Dragger.cs" t="Include" />
               <e p="Enums.cs" t="Include" />
@@ -173,6 +170,7 @@
               <e p="Singleton.cs" t="Include" />
             </e>
             <e p="PlayerMovement.cs" t="Include" />
+            <e p="TapTutorial.cs" t="Include" />
             <e p="UIScript.cs" t="Include" />
           </e>
         </e>
@@ -1136,7 +1134,6 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
       <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
-      <e p="Sirenix.OdinInspector.Modules.UnityMathematics.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
     </e>
   </component>

@@ -20,9 +20,470 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="510cb607-4306-4285-83d8-c6a3748aa55c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/ObiEditorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ObiEditorSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/GameAnalytics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/GameAnalytics/Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/GameAnalytics/Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Materials/Enemies.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Materials/Enemies.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Materials/Road.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Materials/Road.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Materials/RoadBlocks.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Materials/RoadBlocks.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_AssetPostprocessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_AssetPostprocessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_AutoRun.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_AutoRun.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_ContinuationManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_ContinuationManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_EditorUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_EditorUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_Menu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_Menu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_PostprocessBuild.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_PostprocessBuild.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_SettingsInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_SettingsInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_SignUp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_SignUp.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_UpdateWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GA_UpdateWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GameAnalyticsInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/GameAnalyticsInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/Playmaker.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/Playmaker/PlayMakerPresenceCheck.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/Playmaker/PlayMakerPresenceCheck.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/Playmaker/SendProgressionEventActionEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/Playmaker/SendProgressionEventActionEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/Playmaker/SendResourceEventActionEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Editor/Playmaker/SendResourceEventActionEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Fonts/PraktikaRounded-Black SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Fonts/PraktikaRounded-Black SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/active.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/default.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/delete.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/game.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/home.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/info.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/instrument.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/instrument.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/question.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/update_orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/update_orange.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/Images/user.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/gaLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Gizmos/GameAnalytics/gaLogo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android/gameanalytics-imei.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android/gameanalytics-imei.jar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android/gameanalytics.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android/gameanalytics.aar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android/instantapps-1.1.0.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android/instantapps-1.1.0.aar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android/play-services-appset-16.0.2.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android/play-services-appset-16.0.2.aar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android/unity_gameanalytics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Android/unity_gameanalytics.jar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/GameAnalytics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/GameAnalytics.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Linux.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Linux/sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Linux/sqlite3.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/Examples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/GAInitialize.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/GAInitialize.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/GetABTestingId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/GetABTestingId.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/GetABTestingVariantId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/GetABTestingVariantId.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/GetRemoteConfigsValueAsString.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/GetRemoteConfigsValueAsString.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/IsRemoteConfigsReady.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/IsRemoteConfigsReady.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendAdEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendAdEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendBusinessEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendBusinessEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendDesignEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendDesignEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendErrorEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendErrorEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendProgressionEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendProgressionEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendResourceEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SendResourceEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SetCustomDimension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Playmaker/SetCustomDimension.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Prefabs/GameAnalytics.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Prefabs/GameAnalytics.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/SamsungTV.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/SamsungTV/GameAnalytics.SamsungTV.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/SamsungTV/GameAnalytics.SamsungTV.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/SamsungTV/Mono.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/SamsungTV/Mono.Data.Sqlite.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/SamsungTV/sqlite3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/SamsungTV/sqlite3.c.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/SamsungTV/sqlite3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/SamsungTV/sqlite3.h.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ATT.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ATT/GameAnalyticsATTClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ATT/GameAnalyticsATTClient.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ATT/GameAnalyticsATTObjCBridge.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ATT/GameAnalyticsATTObjCBridge.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Enums.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Enums.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GAValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GAValidator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Ads.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Ads.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Business.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Business.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Debug.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Debug.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Design.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Design.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Error.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Error.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Progression.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Progression.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Resource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Resource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Setup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_Setup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_SpecialEvents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Events/GA_SpecialEvents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Fyber.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Fyber/GAFyberIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Fyber/GAFyberIntegration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/GameAnalytics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/GameAnalytics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/IGameAnalyticsATTListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/IGameAnalyticsATTListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/AdMob.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/AdMob/GAAdMobIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/AdMob/GAAdMobIntegration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/Aequus.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/Aequus/GAAequusIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/Aequus/GAAequusIntegration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/GameAnalyticsILRD.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/GameAnalyticsILRD.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/HyperBid.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/HyperBid/GAHyperBidIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/ILRD/HyperBid/GAHyperBidIntegration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/IronSource.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/IronSource/GAIronSourceIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/IronSource/GAIronSourceIntegration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Max.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Max/GAMaxIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Max/GAMaxIntegration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Mopub.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Mopub/GAMopubIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Mopub/GAMopubIntegration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Setup.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Setup/Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Setup/Settings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/State.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/State/GAState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/State/GAState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/TopOn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/TopOn/GATopOnIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/TopOn/GATopOnIntegration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Utilities/GA_MiniJson.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Utilities/GA_MiniJson.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_AndroidWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_AndroidWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_MonoWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_MonoWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_TizenWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_TizenWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_UWPWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_UWPWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_WebGLWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_WebGLWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_Wrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_Wrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_iOSWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_iOSWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_tvOSWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Scripts/Wrapper/GA_tvOSWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Tizen.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Tizen/libGameAnalytics.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Tizen/libGameAnalytics.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WSA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WSA/ARM.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WSA/ARM/GameAnalytics.UWP.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WSA/ARM/GameAnalytics.UWP.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WSA/x64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WSA/x64/GameAnalytics.UWP.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WSA/x64/GameAnalytics.UWP.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WSA/x86.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WSA/x86/GameAnalytics.UWP.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WSA/x86/GameAnalytics.UWP.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WebGL.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WebGL/GameAnalytics.jspre" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WebGL/GameAnalytics.jspre.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WebGL/GameAnalyticsUnity.jslib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/WebGL/GameAnalyticsUnity.jslib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Windows.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Windows/x64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Windows/x64/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Windows/x64/sqlite3.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Windows/x86.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Windows/x86/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/Windows/x86/sqlite3.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalytics.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalytics.h.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalyticsATTObjCBridge.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalyticsATTObjCBridge.h.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalyticsATTObjCBridge.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalyticsATTObjCBridge.m.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalyticsHyperBidHelper.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalyticsHyperBidHelper.m.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalyticsTopOnHelper.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalyticsTopOnHelper.m.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalyticsUnity.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/GameAnalyticsUnity.m.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/libGameAnalytics.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/iOS/libGameAnalytics.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/tvOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/tvOS/GameAnalyticsTVOS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/tvOS/GameAnalyticsTVOS.h.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/tvOS/GameAnalyticsTVOSUnity.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/tvOS/GameAnalyticsTVOSUnity.m.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/tvOS/libGameAnalyticsTVOS.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Plugins/tvOS/libGameAnalyticsTVOS.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/GameAnalytics/Readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/AOT.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/AOT/Sirenix.Serialization.AOTGenerated.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/AOT/Sirenix.Serialization.AOTGenerated.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/AOT/link.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/AOT/link.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/NoEditor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Utilities.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/Sirenix.Utilities.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/link.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Assemblies/link.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Demos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Assets/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Assets/Editor/Odin Inspector Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Assets/Editor/Odin Inspector Logo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/AOTGenerationConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/AOTGenerationConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/ColorPaletteManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/ColorPaletteManager.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/ImportSettingsConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/ImportSettingsConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Modules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/EnsureOdinInspectorDefine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/EnsureOdinInspectorDefine.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/FixBrokenUnityObjectWrapperDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/FixBrokenUnityObjectWrapperDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncListDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncListDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncVarAttributeDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncVarAttributeDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Vector2IntMinMaxAttributeDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Vector2IntMinMaxAttributeDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntDrawers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntDrawers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntPropertyResolvers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntPropertyResolvers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Sirenix.OdinInspector.CompatibilityLayer.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/Sirenix.OdinInspector.CompatibilityLayer.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/VectorIntFormatters.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Odin Inspector/Scripts/VectorIntFormatters.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Plugins/Sirenix/Readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy/Hit On The Back.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy/Hit On The Back.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy/Runningg.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy/Runningg.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy/Stickman.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy/Stickman.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy/Stickman.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy/Stickman.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy/dying.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Enemy/dying.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/Bullet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/Bullet.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/Pistol1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/Pistol1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/Rifle1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/Rifle1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/Rocket.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/Rocket.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/Shotgun.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/Shotgun.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/UI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/UI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/rope blueprint.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/rope blueprint.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Enemie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Enemie.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/GameManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Helpers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Helpers/Enums.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Helpers/Enums.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Helpers/LayerMasks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Helpers/LayerMasks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Helpers/SaveData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Helpers/SaveData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Helpers/Singleton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Helpers/Singleton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/PlayerMovement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/UIScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/UIScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_GunRelated.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_GunRelated/Bullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_GunRelated/Bullet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_GunRelated/GunScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_GunRelated/GunScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/Dragger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/Dragger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/Enums.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/Enums.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/PlayerAction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/PlayerAction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/PlayerAction.inputactions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/PlayerAction.inputactions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/PlayerCollectable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/PlayerCollectable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/PowerValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/PowerValue.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hovl Studio/3D Lasers Pack/Materials/Laser4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hovl Studio/3D Lasers Pack/Materials/Laser4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hypercasual Action Props Pack/Materials/Mat_ActionPropsPack_standardShader.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hypercasual Action Props Pack/Materials/Mat_ActionPropsPack_standardShader.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hypercasual Action Props Pack/Models/ActionPropsPack_GRP.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/ActionPropsPack_GRP.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hypercasual Action Props Pack/Models/ActionPropsPack_GRP.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GunSwing/Prefabs/Guns/ActionPropsPack_GRP.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Falling Back Death.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Falling Back Death.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Ginga Variation 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Ginga Variation 1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Idle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Run Backwards.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Run Backwards.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Running Backward.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Running Backward.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Running.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Running.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Sprint Left.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Sprint Left.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Sprint Right.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@Sprint Right.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@T-Pose.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Character/char@T-Pose.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/Stick Man Running.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/Stick Man Running.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/Stick Man Turn Run.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/Stick Man Turn Run.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/Stickman T-Pose 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/Stickman T-Pose 1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanIdle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanIdle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Hit On The Back.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Hit On The Back.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Jump Attack.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Jump Attack.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Stable Sword Inward Slash.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Stable Sword Inward Slash.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Stable Sword Outward Slash.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Stable Sword Outward Slash.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Swing Dancing.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Swing Dancing.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Sword And Shield Attack.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsAnimations/Stickman/StickmanRigged@Sword And Shield Attack.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Obi/Editor/Resources/DistanceFieldPreview.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Obi/Editor/Resources/DistanceFieldPreview.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Obi/Scripts/Common/Collisions/ObiCollider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Obi/Scripts/Common/Collisions/ObiCollider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,19 +497,24 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.2.0/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GunSwing/Scripts/Enemie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.2.0/InputSystem/Plugins/iOS/iOSPostProcessBuild.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GunSwing/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GunSwing/Scripts/_GunRelated/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Enums.cs" />
         <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/PlayerInteractable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Enemie.cs" />
         <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_PlayerRelated/Enums.cs" />
-        <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/UIScript.cs" />
         <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Helpers/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/GunScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/UIScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_GunRelated/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/_GunRelated/GunScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_GunSwing/Scripts/Enemie.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +558,12 @@
       <option name="presentableId" value="Default" />
       <updated>1654511196192</updated>
       <workItem from="1654511208243" duration="4999000" />
+      <workItem from="1654518372020" duration="3000" />
+      <workItem from="1654539532849" duration="8511000" />
+      <workItem from="1654606030435" duration="16693000" />
+      <workItem from="1654633150765" duration="834000" />
+      <workItem from="1654634336602" duration="993000" />
+      <workItem from="1654710869130" duration="8325000" />
     </task>
     <servers />
   </component>
@@ -110,8 +582,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="647" y="250" key="run.anything.popup" timestamp="1654623421951">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="647" y="250" key="run.anything.popup/62.0.1858.1080/1920.0.1858.1080@62.0.1858.1080" timestamp="1654623421951" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1654716848256">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080/1920.0.1858.1080@62.0.1858.1080" timestamp="1654716848256" />
   </component>
 </project>
