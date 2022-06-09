@@ -36,14 +36,14 @@ public class GunScript : MonoBehaviour
 
     void LaserGun()
     {
-        if (Enemie.GameStarted == true)
+        if (Enemie.GameStarted == true && gameObject.activeSelf)
         {
             GameObject instance = Instantiate(bullet, bulletHole.transform.position, Quaternion.identity);
         }
     }
     void ShotgunShoot()
     {
-        if (Enemie.GameStarted == true)
+        if (Enemie.GameStarted == true && gameObject.activeSelf)
         {
             var qAngle = Quaternion.AngleAxis((float) (-numShots / 2.0 * spreadAngle), transform.up) * transform.rotation;
             var qDelta = Quaternion.AngleAxis(spreadAngle, transform.up);
@@ -56,10 +56,11 @@ public class GunScript : MonoBehaviour
     }
     void LaunchProjectile()
     {
-        if (Enemie.GameStarted == true)
+        if (Enemie.GameStarted == true && gameObject.activeSelf)
         {
             GameObject instance = Instantiate(bullet, bulletHole.transform.position, Quaternion.identity);
         }
         
     }
+    
 }
