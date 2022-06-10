@@ -98,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
             _gameState = GameState.Run;
             TapToMove.SetActive(false);
             Enemie.GameStarted = true;
-           // PlayerAnimator.Play("Running Backward");
+            //PlayerAnimator.Play("Running Backward");
         }
     }
  
@@ -167,7 +167,12 @@ public class PlayerMovement : MonoBehaviour
                 UIgo.Success(enemy.Count);
                 Enemie.GameStarted = false;
                 _gameState = GameState.End;
+                PlayerAnimator.Play("Dance");
                 playerrb.isKinematic = true;
+                for (int i = 0; i < guns.Length; i++)
+                {
+                    guns[i].SetActive(false);
+                }
             }
         }
         else
